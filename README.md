@@ -4,6 +4,7 @@ Postfix in a Docker container
 ### 1. Review Dockerfile:
 
 Check the following line and complete it with proper email address and password in clear text:
+
 echo '[smtp.gmail.com]:587    <yourGmailAddress>@gmail.com:<yourPassword>' >> /etc/postfix/sasl_passwd && \
 
 ### 2. Build image:
